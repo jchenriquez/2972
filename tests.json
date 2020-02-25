@@ -1,0 +1,30 @@
+{
+    "test1": {
+        "input": "",
+        "output": true
+    },
+    "test2" : {
+        "input": "()",
+        "output": true
+    },
+    "test3": {
+        "input": "[)",
+        "output": false
+    },
+    "test4": {
+        "input": "{()}[]",
+        "output": true
+    },
+    "test5": {
+        "input": "{}[]()",
+        "output": true
+    },
+    "test6": {
+        "input": "{{(([[]]))}]",
+        "output": false
+    },
+    "test7": {
+        "input": "([)]",
+        "output": false
+    }
+}
